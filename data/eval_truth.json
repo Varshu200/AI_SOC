@@ -1,0 +1,118 @@
+{
+  "ALERT-001": {
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "techniques": [
+      "T1110",
+      "T1078",
+      "T1105",
+      "T1222",
+      "T1571"
+    ]
+  },
+  "EVAL-01": {
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "techniques": [
+      "T1110",
+      "T1078"
+    ]
+  },
+  "EVAL-02": {
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "techniques": [
+      "T1078",
+      "T1059",
+      "T1571"
+    ]
+  },
+  "EVAL-03": {
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "techniques": [
+      "T1078",
+      "T1105",
+      "T1496"
+    ]
+  },
+  "EVAL-04": {
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "techniques": [
+      "T1078",
+      "T1560",
+      "T1041|T1048"
+    ]
+  },
+  "EVAL-05": {
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "techniques": [
+      "T1078",
+      "T1053"
+    ]
+  },
+  "EVAL-06": {
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "techniques": [
+      "T1078",
+      "T1136",
+      "T1548|T1003"
+    ]
+  },
+  "EVAL-07": {
+    "kind": "benign",
+    "accept": [
+      "false_positive"
+    ],
+    "techniques": []
+  },
+  "EVAL-08": {
+    "kind": "benign",
+    "accept": [
+      "false_positive",
+      "needs_review"
+    ],
+    "techniques": []
+  },
+  "EVAL-09": {
+    "kind": "benign",
+    "accept": [
+      "false_positive",
+      "needs_review"
+    ],
+    "techniques": []
+  },
+  "EVAL-10": {
+    "kind": "benign",
+    "accept": [
+      "false_positive",
+      "needs_review"
+    ],
+    "techniques": []
+  },
+  "EVAL-11": {
+    "kind": "benign",
+    "accept": [
+      "false_positive",
+      "needs_review"
+    ],
+    "techniques": []
+  }
+}

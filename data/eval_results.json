@@ -1,0 +1,246 @@
+[
+  {
+    "id": "ALERT-001",
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "llm": "error",
+    "confidence": null,
+    "baseline_b": "true_positive",
+    "llm_ok": false,
+    "a_ok": true,
+    "b_ok": true,
+    "secs": 0.0,
+    "found": 0,
+    "expected": 5,
+    "correct_pred": 0,
+    "pred": 0,
+    "rejected_ids": 0,
+    "error": "LLM unavailable after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You excee"
+  },
+  {
+    "id": "EVAL-01",
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "llm": "error",
+    "confidence": null,
+    "baseline_b": "false_positive",
+    "llm_ok": false,
+    "a_ok": true,
+    "b_ok": false,
+    "secs": 0.0,
+    "found": 0,
+    "expected": 2,
+    "correct_pred": 0,
+    "pred": 0,
+    "rejected_ids": 0,
+    "error": "LLM unavailable after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You excee"
+  },
+  {
+    "id": "EVAL-02",
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "llm": "error",
+    "confidence": null,
+    "baseline_b": "false_positive",
+    "llm_ok": false,
+    "a_ok": true,
+    "b_ok": false,
+    "secs": 0.0,
+    "found": 0,
+    "expected": 3,
+    "correct_pred": 0,
+    "pred": 0,
+    "rejected_ids": 0,
+    "error": "LLM unavailable after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You excee"
+  },
+  {
+    "id": "EVAL-03",
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "llm": "error",
+    "confidence": null,
+    "baseline_b": "false_positive",
+    "llm_ok": false,
+    "a_ok": true,
+    "b_ok": false,
+    "secs": 0.0,
+    "found": 0,
+    "expected": 3,
+    "correct_pred": 0,
+    "pred": 0,
+    "rejected_ids": 0,
+    "error": "LLM unavailable after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You excee"
+  },
+  {
+    "id": "EVAL-04",
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "llm": "error",
+    "confidence": null,
+    "baseline_b": "false_positive",
+    "llm_ok": false,
+    "a_ok": true,
+    "b_ok": false,
+    "secs": 0.0,
+    "found": 0,
+    "expected": 3,
+    "correct_pred": 0,
+    "pred": 0,
+    "rejected_ids": 0,
+    "error": "LLM unavailable after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You excee"
+  },
+  {
+    "id": "EVAL-05",
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "llm": "error",
+    "confidence": null,
+    "baseline_b": "false_positive",
+    "llm_ok": false,
+    "a_ok": true,
+    "b_ok": false,
+    "secs": 0.0,
+    "found": 0,
+    "expected": 2,
+    "correct_pred": 0,
+    "pred": 0,
+    "rejected_ids": 0,
+    "error": "LLM unavailable after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You excee"
+  },
+  {
+    "id": "EVAL-06",
+    "kind": "attack",
+    "accept": [
+      "true_positive"
+    ],
+    "llm": "error",
+    "confidence": null,
+    "baseline_b": "false_positive",
+    "llm_ok": false,
+    "a_ok": true,
+    "b_ok": false,
+    "secs": 0.0,
+    "found": 0,
+    "expected": 3,
+    "correct_pred": 0,
+    "pred": 0,
+    "rejected_ids": 0,
+    "error": "LLM unavailable after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You excee"
+  },
+  {
+    "id": "EVAL-07",
+    "kind": "benign",
+    "accept": [
+      "false_positive"
+    ],
+    "llm": "error",
+    "confidence": null,
+    "baseline_b": "false_positive",
+    "llm_ok": false,
+    "a_ok": false,
+    "b_ok": true,
+    "secs": 0.0,
+    "found": 0,
+    "expected": 0,
+    "correct_pred": 0,
+    "pred": 0,
+    "rejected_ids": 0,
+    "error": "LLM unavailable after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You excee"
+  },
+  {
+    "id": "EVAL-08",
+    "kind": "benign",
+    "accept": [
+      "false_positive",
+      "needs_review"
+    ],
+    "llm": "error",
+    "confidence": null,
+    "baseline_b": "false_positive",
+    "llm_ok": false,
+    "a_ok": false,
+    "b_ok": true,
+    "secs": 0.0,
+    "found": 0,
+    "expected": 0,
+    "correct_pred": 0,
+    "pred": 0,
+    "rejected_ids": 0,
+    "error": "LLM unavailable after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You excee"
+  },
+  {
+    "id": "EVAL-09",
+    "kind": "benign",
+    "accept": [
+      "false_positive",
+      "needs_review"
+    ],
+    "llm": "error",
+    "confidence": null,
+    "baseline_b": "false_positive",
+    "llm_ok": false,
+    "a_ok": false,
+    "b_ok": true,
+    "secs": 0.0,
+    "found": 0,
+    "expected": 0,
+    "correct_pred": 0,
+    "pred": 0,
+    "rejected_ids": 0,
+    "error": "LLM unavailable after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You excee"
+  },
+  {
+    "id": "EVAL-10",
+    "kind": "benign",
+    "accept": [
+      "false_positive",
+      "needs_review"
+    ],
+    "llm": "error",
+    "confidence": null,
+    "baseline_b": "false_positive",
+    "llm_ok": false,
+    "a_ok": false,
+    "b_ok": true,
+    "secs": 0.0,
+    "found": 0,
+    "expected": 0,
+    "correct_pred": 0,
+    "pred": 0,
+    "rejected_ids": 0,
+    "error": "LLM unavailable after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You excee"
+  },
+  {
+    "id": "EVAL-11",
+    "kind": "benign",
+    "accept": [
+      "false_positive",
+      "needs_review"
+    ],
+    "llm": "error",
+    "confidence": null,
+    "baseline_b": "false_positive",
+    "llm_ok": false,
+    "a_ok": false,
+    "b_ok": true,
+    "secs": 0.0,
+    "found": 0,
+    "expected": 0,
+    "correct_pred": 0,
+    "pred": 0,
+    "rejected_ids": 0,
+    "error": "LLM unavailable after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You excee"
+  }
+]
